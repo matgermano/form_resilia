@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="AGORA VAI.css">
+    <title>Resíslia Cadastros</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset class="grupo1">
+            <div>
+                <h1 id="titulo"> Venha ser um Resiliente!</h1>
+                <p id="subtitulo">Abertas as inscrições para o curso Webstack de 6 meses mais completo do mercado!
+                <P>
+            </div>
+
+            <p><b>Identificação</b></p>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input class="input" type="text" name="nome" id="nome" required>
+            </div>
+            <div class="formulario">
+                <label for="sobrenome">Sobrenome</label>
+                <input class="input" type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <br>
+            <p><b>Contato</b></p>
+            <div>
+                <label for="email">E-mail</label>
+                <input class="input" type="email" nome="email" id="email" required>
+            </div>
+            <div>
+                <label for="number">Telefone</label>
+                <input class="input" type="number" nome="Telefone" id="Telefone" required>
+            </div>
+            <br>
+
+            <div>
+                <label><b>Área de maior interesse em desenvolvimento Web:</b></label><br><br>
+                <label>
+                    <input type="radio" nome="devweb" value="frontend"> <em>Front-end</em>
+                </label>
+                <label>
+                    <input type="radio" nome="devweb" value="backend"> <em>Back-end</em>
+                </label>
+                <label>
+                    <input type="radio" nome="devweb" value="Fullstack"> <em>Fullstack</em>
+                </label>
+                <label>
+                    <input type="radio" nome="devweb" value="Nao sei"> <em>N/S</em>
+                </label>
+            </div>
+            <div>
+                <br>
+                <label><b>Nível atual de conhecimento de Desenvolvimento Web:</b></label><br>
+                <select>
+                    <option selected disabled value=""><b>Selecione</b></option>
+                    <option>Nenhum (nunca nem vi)</option>
+                    <option>Básico (já fiz uns cursinhos ai..)</option>
+                    <option>Intermediário (Tenho uma noção boa)</option>
+                    <option>Avançado (Trabalhei já com isso)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label><b>Por onde você descobriu a nossa plataforma:</b></label><br>
+                <input type="checkbox" id="meio1" name="meio1" value="Instagram">
+                <label for="meio1">Instagram</label>
+
+                <input type="checkbox" id="meio1" name="meio2" value="Linkedin">
+                <label for="meio1">Linkedin</label>
+
+                <input type="checkbox" id="meio1" name="meio3" value="Plataforma Alura">
+                <label for="meio1">Alura</label>
+
+                <input type="checkbox" id="meio1" name="meio4" value="Twitch">
+                <label for="meio1">Twitch</label>
+
+                <input type="checkbox" id="meio1" name="meio5" value="Jornal/TV">
+                <label for="meio1">Jornal/TV</label>
+
+                <input type="checkbox" id="meio1" name="meio6" value="Amigos">
+                <label for="meio 6">Amigos</label>
+
+                <input type="checkbox" id="meio7" name="meio7" value="Outro">
+                <label for="meio 7">Outro</label>
+            </div>
+            <br>
+            <br>
+            <div id="button">
+                <button type="submit"><b>Enviar</b></button>
+            </div>
+        </fieldset>
+</body>
+
+</html>

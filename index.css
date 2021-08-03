@@ -1,0 +1,52 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+
+}
+
+#titulo{
+    text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px 2px  black;
+}
+
+.input{
+    
+    width: 80%;
+    align-items: right;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display:flex;
+}
+
+fieldset{
+    width: 50%;
+    text-align: center;
+    background-color:#FAD000;
+   border-radius: 3%;
+   box-shadow: 2px 2px 8px 2px aliceblue;
+}
+
+#button{
+    text-align: center;
+    text-size-adjust: 20px;
+}
+
+button:hover{
+    cursor: pointers;
+}
+
+body{
+    background-color: #F3F3F3;
+    display: flex;  
+    justify-content: center;
+    background-image:url(https://images.hdqwalls.com/download/code-hacker-1440x900.jpg);  
+}
